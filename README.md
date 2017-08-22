@@ -1,0 +1,2 @@
+# AndroidAuthenticationSystemWithNodeBackend
+This is an example of a simple authentication system using Android and a Node.js backend server and script. It takes in an email and password and then sends and authentication request to the server. The server looks for the credentials in a MySQL database and if the user exists allows the connection and sends back a success message. If it fails it send a failure message. This example could be made more secure by implementing a different hashing algorithm as well as introducing a SALT.
